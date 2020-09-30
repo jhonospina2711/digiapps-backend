@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nexti.springboot.backend.apirest.models.entity.Cliente;
 import com.nexti.springboot.backend.apirest.models.servicies.IClienteService;
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://digiapps.s3-website-us-east-1.amazonaws.com"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
